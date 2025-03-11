@@ -1,9 +1,6 @@
 <template>
-<div>
-    <NuxtPage></NuxtPage>
-</div>    
+  <div>
+    <NuxtRouteAnnouncer />
+    <NuxtWelcome />
+  </div>
 </template>
-
-<script setup>
-import '~/assets/all.scss'
-</script>
